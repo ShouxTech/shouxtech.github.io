@@ -1,11 +1,10 @@
 import CriShouxLogo from './CriShouxLogo';
-import './TopBar.css'
 
-function TopBar() {
+function TopBar(props) {
     return (
-        <div id="container">
-            <CriShouxLogo id="logo" style={{ width: '70px', height: '70px', 'padding-left': '2px' }}/>
-            <h1>CRISHOUX</h1>
+        <div className="flex bg-[rgb(25,25,25)] items-center w-full">
+            <CriShouxLogo className="w-[70px] h-[70px]"/>
+            <h1 className="text-white font-product-sans font-bold text-3xl">CRISHOUX</h1>
         </div>
     )
 }
