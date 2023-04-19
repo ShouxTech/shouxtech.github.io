@@ -7,7 +7,6 @@ function App() {
         <div className="App">
             <TopBar/>
             <Header/>
-            <div className="h-20"></div>
             <MajorProjects/>
         </div>
     )

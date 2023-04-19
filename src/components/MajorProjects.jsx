@@ -11,7 +11,7 @@ import COVLogo from '../assets/major-projects/COVLogo.png'
 function MajorProjects(props) {
     return (
         <div>
-            <p className="text-white text-center font-roboto font-bold text-5xl italic p-4">Major Projects</p>
+            <p className="text-white text-center font-roboto font-bold text-5xl italic p-4 mt-20">Major Projects</p>
             <div className="grid m-20 gap-4 grid-cols-[repeat(auto-fill,19rem)] sm:grid-cols-[repeat(auto-fill,24rem)] justify-center">
                 <Project projectName="Rogue Demon" year="2022" desc="A battleground experience based on Demon Slayer. Over 100,000,000 visits and over 100,000 group members." url="https://www.roblox.com/games/9103898828/Rogue-Demon" bannerImage={RDBanner} icon={RDLogo}/>
                 <Project projectName="Atlas" year="2021" desc="An external (different from a script) software cheat for the Roblox client. Primarily universal aimbot and ESP." bannerImage={AtlasBanner} icon={AtlasLogo}/>
