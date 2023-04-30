@@ -2,6 +2,7 @@ import CriShouxLogo from './CriShouxLogo';
 import YouTube from '../assets/icons/YouTube.svg'
 import Twitter from '../assets/icons/Twitter.svg'
 import Roblox from '../assets/icons/Roblox.svg'
+import GitHub from '../assets/icons/GitHub.svg'
 
 function TopBar(props) {
     return (
@@ -10,6 +11,9 @@ function TopBar(props) {
             <h1 className="text-white font-product-sans font-bold text-2xl sm:text-3xl">CRISHOUX</h1>
             <a href="https://www.roblox.com/users/57116727/profile" target="_blank" className="ml-auto mr-5">
                 <img src={Roblox} alt="Roblox" className="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px]"></img>
+            </a>
+            <a href="https://github.com/ShouxTech" target="_blank" className="mr-5">
+                <img src={GitHub} alt="GitHub" className="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px]"></img>
             </a>
             <a href="https://twitter.com/cri_shoux" target="_blank" className="mr-5">
                 <img src={Twitter} alt="Twitter" className="w-[25px] h-[25px] sm:w-[32px] sm:h-[32px]"></img>
