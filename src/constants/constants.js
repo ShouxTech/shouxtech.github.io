@@ -26,7 +26,7 @@ export const majorProjects = [
     {
         name: 'City of Vancouver V1',
         year: '2020',
-        description: 'A city experience. I was the main (and only) scripter for a year. The group has now moved on to V2 which I contributed to.',
+        description: 'A city experience. I was the main (and only) scripter for a year. The group has now moved on to V2 which I have contributed to.',
         url: 'https://www.roblox.com/groups/5530527/City-of-Vancouver-Canada',
         icon: COVLogo,
         banner: COVBanner,
