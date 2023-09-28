@@ -92,7 +92,6 @@ export const contributions = [
         name: 'ars.red',
         year: '2018',
         description: 'Cheat script for Apocalypse Rising 2 on Roblox. Over 1,000 buyers.',
-        url: 'https://ars.red',
         icon: ARSLogo,
         banner: ARSBanner,
     },
