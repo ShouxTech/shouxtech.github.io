@@ -2,7 +2,7 @@ import NewTab from '../assets/icons/NewTab.svg'
 
 function Project(props) {
     return (
-        <div className="w-full h-[340px] bg-zinc-700 rounded overflow-hidden shadow-lg relative">
+        <div className="w-full h-[360px] bg-zinc-700 rounded overflow-hidden shadow-lg relative">
             {/* Banner is 384x128 */}
             <div className="grid">
                 <img src={props.bannerImage} alt="Banner" className="bg-zinc-500 w-full h-32 blur-[2px] col-[1] row-[1] object-cover"></img> 
