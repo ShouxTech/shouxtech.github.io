@@ -10,7 +10,7 @@ function Project(props) {
                 <img src={props.icon} alt="Icon" className="bg-zinc-800 w-20 h-20 rounded border z-10 col-[1] row-[1] border-zinc-500 p-2 ml-3 mt-[70px]"></img>
             </div>
             <h3 className="text-white font-roboto font-bold text-xl ml-3 mt-3">{props.projectName}</h3>
-            <p className="text-zinc-300 font-roboto pl-3 pr-3 mt-2">{props.desc}<span className='text-gray-400 cursor-pointer' onClick={() => props.setMoreInfo(props)}>{props.showMore ? ' Show more...' : ''}</span></p>
+            <p className="text-zinc-300 font-roboto pl-3 pr-3 mt-2">{props.desc}{props.moreInfo && <span> <span className='text-gray-400 cursor-pointer' tabIndex={0} onClick={() => props.setMoreInfo(props)}>Show more...</span></span>}</p>
             {props.url &&
                 <a className="ml-3 bottom-3 block absolute" target="_blank" href={props.url}>
                     <img src={NewTab} className="w-[25px] h-[25px] inline"></img>

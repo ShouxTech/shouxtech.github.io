@@ -12,7 +12,7 @@ function MoreInfo(props) {
                 </div>
                 <h3 className="text-white font-roboto font-bold text-xl ml-3 mt-3">{props.projectName}</h3>
                 <p className="text-zinc-400 font-roboto pl-3 pr-3 mt-2">{props.desc}</p>
-                <p className="text-zinc-300 font-roboto pl-3 pr-3 mt-2">{props.showMore}</p>
+                <p className="text-zinc-300 font-roboto pl-3 pr-3 mt-2">{props.moreInfo}</p>
                 {props.url &&
                     <a className="ml-3 bottom-3 block absolute" target="_blank" href={props.url}>
                         <img src={NewTab} className="w-[25px] h-[25px] inline"></img>
