@@ -21,7 +21,7 @@ export const majorProjects = [
         name: 'Atlas',
         year: '2021',
         description: 'An external software cheat for the Roblox client (different from a script). Primarily universal aimbot and ESP.',
-        moreInfo: 'At first, an external program using Windows methods to interact with the Roblox client. Later, an internal DLL that would be injected into the Roblox client to function as cheating software. Switched to an a DLL because it allowed for easier memory access of the Roblox client. Primarily universal aimbot and ESP at its launch, however, featured more interesting features later in its life such as flying abilities and lua code execution in the target experience. During the development of this, I learned many details about Windows architecture. Many users reported the experience of this software was better than using traditional scripts due to better performance (less lag).',
+        moreInfo: 'At first, an external program using Windows methods to interact with the Roblox client. Later, an internal DLL that would be injected into the Roblox client to function as cheating software. It was switched to a DLL because it allowed for easier memory access of the Roblox client. Primarily universal aimbot and ESP at its launch, however, featured more interesting features later in its life such as flying abilities and lua code execution in the target experience. During the development of this, I learned many details about Windows architecture. Many users reported the experience of this software was better than using traditional scripts due to better performance (less lag).',
         icon: AtlasLogo,
         banner: AtlasBanner,
     },
