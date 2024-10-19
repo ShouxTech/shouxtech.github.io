@@ -52,8 +52,18 @@ import MMBanner from '../assets/minor-projects/MMBanner.png'
 import MMLogo from '../assets/minor-projects/MMLogo.png'
 import BPLogo from '../assets/minor-projects/BPLogo.png'
 import BPBanner from '../assets/minor-projects/BPBanner.png'
+import PTLogo from '../assets/minor-projects/PTLogo.png'
+import PTBanner from '../assets/minor-projects/PTBanner.png'
 
 export const minorProjects = [
+    {
+        name: 'penguintrack',
+        year: '2024',
+        description: 'View the stats of all your favorite Club Penguin Private Servers at a glance.',
+        url: 'https://penguintrack.com/',
+        icon: PTLogo,
+        banner: PTBanner,
+    },
     {
         name: 'Bitmoji Picker',
         year: '2023',
