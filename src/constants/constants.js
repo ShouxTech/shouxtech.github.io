@@ -12,7 +12,7 @@ export const majorProjects = [
         name: 'Rogue Demon',
         year: '2022',
         description: 'A battleground experience based on Demon Slayer. Over 500,000,000 visits and over 1,000,000 group members.',
-        moreInfo: 'As a main programmer for this experience, I have done much of my work on the backend and UI. Some large features of this game I developed: anti-cheat (quite strong because of my exploiting experience), mobile support, gamepad support, product gifting, ranked play, emotes, shop. To name a few smaller areas I developed: leaderboard, inventory, data saving. To allow for moderators to easily take action against players in-game, I also created a Discord bot that can communicate instantly to game servers with Roblox\'s Open Cloud API to deploy bans and similar data modifications in real-time.',
+        moreInfo: 'As a main programmer for this experience, I have done much of my work on the backend and UI. Some large features of this game I developed: anti-cheat (quite strong because of my exploiting experience), mobile support, gamepad support, product gifting, ranked play, emotes, shop, community-curated outfits. To name a few smaller areas I developed: leaderboard, inventory, data saving. To allow for moderators to easily take action against players in-game, I also created a Discord bot that can communicate instantly to game servers with Roblox\'s Open Cloud API to deploy bans and similar data modifications in real-time.',
         url: 'https://www.roblox.com/games/9103898828/Rogue-Demon',
         icon: RDLogo,
         banner: RDBanner,
@@ -98,15 +98,15 @@ export const minorProjects = [
     },
 ];
 
-import ARSBanner from '../assets/contributions/ARSBanner.png'
-import ARSLogo from '../assets/contributions/ARSLogo.png'
+import RNBanner from '../assets/contributions/RNBanner.png'
+import RNLogo from '../assets/contributions/RNLogo.png'
 
 export const contributions = [
     {
-        name: 'ars.red',
-        year: '2018',
-        description: 'Cheat script for Apocalypse Rising 2 on Roblox. Over 1,000 buyers.',
-        icon: ARSLogo,
-        banner: ARSBanner,
+        name: 'Rogue Ninja',
+        year: '2023',
+        description: 'A PvP combat experience similar to Rogue Demon, based on Naruto.',
+        icon: RNLogo,
+        banner: RNBanner,
     },
 ];
