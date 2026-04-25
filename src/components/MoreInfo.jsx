@@ -3,7 +3,7 @@ import NewTab from '../assets/icons/NewTab.svg'
 function MoreInfo(props) {
     return (
         <div className="fixed z-50 left-0 top-0 w-full h-full overflow-hidden bg-black/60 flex justify-center items-center" onClick={() => props.setMoreInfo(undefined)}>
-            <div className="lg:w-[35%] w-[90%] max-h-[90vh] pb-3 bg-zinc-700 rounded overflow-y-auto overflow-x-hidden shadow-lg relative" onClick={(e) => e.stopPropagation()}>
+            <div className="lg:w-[35%] w-[80%] max-h-[90vh] pb-3 bg-zinc-700 rounded overflow-y-auto overflow-x-hidden shadow-lg relative" onClick={(e) => e.stopPropagation()}>
                 {/* Banner is 384x128 */}
                 <div className="grid">
                     <img src={props.bannerImage} alt="Banner" className="bg-zinc-500 w-full h-32 blur-[2px] col-[1] row-[1] object-cover"></img> 
