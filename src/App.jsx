@@ -6,6 +6,7 @@ import MajorProjects from './components/MajorProjects';
 import MinorProjects from './components/MinorProjects';
 import TopBar from './components/TopBar'
 import MoreInfo from './components/MoreInfo';
+import Work from './components/Work';
 
 function App() {
     const [moreInfo, setMoreInfo] = React.useState();
@@ -18,6 +19,7 @@ function App() {
             <MajorProjects setMoreInfo={setMoreInfo}/>
             <MinorProjects setMoreInfo={setMoreInfo}/>
             <Contributions setMoreInfo={setMoreInfo}/>
+            <Work setMoreInfo={setMoreInfo}/>
             {moreInfo && <MoreInfo setMoreInfo={setMoreInfo} {...moreInfo}/>}
 
             <Copyright/>

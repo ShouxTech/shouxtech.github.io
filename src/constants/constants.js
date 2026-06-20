@@ -11,8 +11,8 @@ export const majorProjects = [
     {
         name: 'Rogue Demon',
         year: '2022',
-        description: 'A battleground experience based on Demon Slayer. Over 600,000,000 visits and over 1,000,000 group members.',
-        moreInfo: 'As a main programmer for this experience, my work spanned many aspects of the product, with a focus on the backend and UI. Some large features of this game I developed: anti-cheat (quite strong because of my exploiting experience), data saving and interfacing, mobile support, gamepad support, product gifting, ranked play, emotes, shop, community-curated outfits, achievements. To name a few smaller areas I developed: leaderboard, inventory. To allow moderators to easily take action against players in-game, I created a Discord bot that communicated with experience servers using Roblox\'s Open Cloud API to deploy bans and similar data modifications in real-time.',
+        description: 'A battleground game based on Demon Slayer. Over 600,000,000 visits and over 1,000,000 group members.',
+        moreInfo: 'As a main programmer for this game, my work spanned many aspects of the product, with a focus on the backend and UI. Some large features of this game I developed: anti-cheat (quite strong because of my exploiting experience), data saving and interfacing, mobile support, gamepad support, product gifting, ranked play, emotes, shop, community-curated outfits, achievements. To name a few smaller areas I developed: leaderboard, inventory. To allow moderators to easily take action against players in-game, I created a Discord bot that communicated with game servers using Roblox\'s Open Cloud API to deploy bans and similar data modifications in real-time.',
         url: 'https://www.roblox.com/games/9103898828/Rogue-Demon',
         icon: RDLogo,
         banner: RDBanner,
@@ -21,14 +21,14 @@ export const majorProjects = [
         name: 'Atlas',
         year: '2021',
         description: 'A standalone executable cheat for the Roblox client. Primarily a universal aimbot and ESP.',
-        moreInfo: 'Initially, Atlas was an external program using Windows APIs to interact with the Roblox client. To simplify memory access, it later became an internal DLL that would be injected into the Roblox client to function as cheating software. Atlas was primarily a universal aimbot and ESP at its launch, but it featured more advanced capabilities later in its life, such as flying abilities and Lua code execution in the target experience. During the development of this, I learned many details about Windows architecture. Many users reported the experience of this software was better than using traditional scripts due to better performance (less lag).',
+        moreInfo: 'Initially, Atlas was an external program using Windows APIs to interact with the Roblox client. To simplify memory access, it later became an internal DLL that would be injected into the Roblox client to function as cheating software. Atlas was primarily a universal aimbot and ESP at its launch, but it featured more advanced capabilities later in its life, such as flying abilities and Lua code execution in the target game. During the development of this, I learned many details about Windows architecture. Many users reported the experience of this software was better than using traditional scripts due to better performance (less lag).',
         icon: AtlasLogo,
         banner: AtlasBanner,
     },
     {
         name: 'City of Vancouver V1',
         year: '2020',
-        description: 'A city experience. I was the main (and only) scripter for a year. The group has now moved on to V2 which I have made significant contributions to.',
+        description: 'A city-based game. I was the main (and only) scripter for a year. The group has now moved on to V2 which I have made significant contributions to.',
         moreInfo: 'This project was one of my most significant learning experiences, particularly in vehicle mechanics and physics simulation. I researched real-world chassis design and the fascinating process of turning engine power into wheel rotation. I engineered a custom vehicle chassis, balancing realistic simulation with engaging gameplay. For example, accurately simulating the differing behaviors of AWD, FWD, and RWD drivetrains was incredibly rewarding to see in action.',
         url: 'https://www.roblox.com/groups/5530527/City-of-Vancouver-Canada',
         icon: COVLogo,
@@ -105,8 +105,22 @@ export const contributions = [
     {
         name: 'Rogue Ninja',
         year: '2023',
-        description: 'A PvP combat experience similar to Rogue Demon, based on Naruto.',
+        description: 'A PvP combat game similar to Rogue Demon, based on Naruto.',
         icon: RNLogo,
         banner: RNBanner,
+    },
+];
+
+import BHBanner from '../assets/work/BHBanner.png'
+import BHLogo from '../assets/work/BHLogo.png'
+
+export const work = [
+    {
+        name: 'Brookhaven',
+        year: '2026',
+        description: 'The largest game on Roblox.',
+        url: 'https://www.roblox.com/games/4924922222/Brookhaven-RP',
+        icon: BHLogo,
+        banner: BHBanner,
     },
 ];
