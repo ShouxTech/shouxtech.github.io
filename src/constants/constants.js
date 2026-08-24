@@ -50,8 +50,6 @@ import ROCBanner from '../assets/minor-projects/ROCBanner.png'
 import ROCLogo from '../assets/minor-projects/ROCLogo.png'
 import MMBanner from '../assets/minor-projects/MMBanner.png'
 import MMLogo from '../assets/minor-projects/MMLogo.png'
-import BPLogo from '../assets/minor-projects/BPLogo.png'
-import BPBanner from '../assets/minor-projects/BPBanner.png'
 import PTLogo from '../assets/minor-projects/PTLogo.png'
 import PTBanner from '../assets/minor-projects/PTBanner.png'
 
@@ -63,14 +61,6 @@ export const minorProjects = [
         url: 'https://penguintrack.com/',
         icon: PTLogo,
         banner: PTBanner,
-    },
-    {
-        name: 'Bitmoji Picker',
-        year: '2023',
-        description: 'Use any Bitmoji sticker right from your desktop.',
-        url: 'https://www.youtube.com/watch?v=TuUocXjquV4',
-        icon: BPLogo,
-        banner: BPBanner,
     },
     {
         name: 'Remory Lane',
